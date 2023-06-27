@@ -21,10 +21,13 @@ import customerRoutes from "./routes/customer";
 import feedBackRoutes from "./routes/feedBack";
 import adminRoutes from "./routes/admin";
 import authRoutes from "./routes/auth";
-
+import { fileURLToPath } from "url";
+import { dirname } from "path";
 // ==> Main Configuration <== //
 
 config();
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 const app = express();
 const accessLogStream = createStream("accessLog.log", { path: "./logs" });
 const storage = multer.diskStorage({
