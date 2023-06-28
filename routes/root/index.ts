@@ -1,6 +1,7 @@
+import path from "path";
 import express, { Request, Response } from "express";
-const rootRoutes = express.Router();
-rootRoutes.get("/", (_req: Request, res: Response) => {
-  res.status(200).send("bla");
+const router = express.Router();
+router.get("^/$|/index(.html)?", (_req: Request, res: Response) => {
+  res.sendFile(path.join(__dirname, "..", "views", "index.html"));
 });
-export default rootRoutes;
+export default router;

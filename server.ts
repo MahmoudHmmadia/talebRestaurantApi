@@ -26,9 +26,22 @@ import { dirname } from "path";
 // ==> Main Configuration <== //
 
 config();
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const app = express();
+// Add Access Control Allow Origin headers
+app.use((_req, res, next) => {
+  res.setHeader(
+    "Access-Control-Allow-Origin",
+    "https://taleb-restaurant.onrender.com/"
+  );
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
 const accessLogStream = createStream("accessLog.log", { path: "./logs" });
 const storage = multer.diskStorage({
   destination: (_req, _res, callback) => {
@@ -39,12 +52,12 @@ const storage = multer.diskStorage({
   },
 });
 const upload = multer({ storage });
-app.use(
-  cors({
-    credentials: true,
-    origin: "https://taleb-restaurant.onrender.com/",
-  })
-);
+// app.use(
+//   cors({
+//     credentials: true,
+//     origin: "https://taleb-restaurant.onrender.com/",
+//   })
+// );
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 app.use(cookieParser());
