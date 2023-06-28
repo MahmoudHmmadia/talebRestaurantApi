@@ -54,10 +54,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(logger("dev"));
 app.use(logger("combined", { stream: accessLogStream }));
-app.use(
-  "/assets",
-  express.static(path.join(__dirname, "public/assets/images"))
-);
+app.use("/assets", express.static("./public/assets/images"));
 // ==> ROUTES <== //
 
 app.use("/", rootRoutes);
