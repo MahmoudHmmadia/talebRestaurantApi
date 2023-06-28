@@ -44,6 +44,8 @@ const upload = multer({ storage });
 app.use(
   cors({
     credentials: true,
+    origin: true,
+    optionsSuccessStatus: 200,
   })
 );
 app.use(helmet());
