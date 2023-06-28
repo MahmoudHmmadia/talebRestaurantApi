@@ -17,8 +17,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(90deg, #142e58 0%, #122341);
-        color: #8099e9;
+        background: linear-gradient(90deg, #0f1214 0%, #2b2e32 100%);
+        color: #ffa852;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
       }
       .title {
         letter-spacing: 1px;
@@ -26,6 +32,11 @@
     </style>
   </head>
   <body>
-    <h1 class="title">WELCOME TO TALEB API WEB SERVER</h1>
+    <div class="contaienr">
+      <div class="image">
+        <img src="../public/assets/images/logo.png" alt="LOGO" width="200" />
+      </div>
+      <h1 class="title">WELCOME TO TALEB API WEB SERVER</h1>
+    </div>
   </body>
 </html>

@@ -30,12 +30,9 @@ config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const app = express();
-// Add Access Control Allow Origin headers
+
 app.use((_req, res, next) => {
-  res.setHeader(
-    "Access-Control-Allow-Origin",
-    "https://taleb-restaurant.onrender.com/"
-  );
+  res.setHeader("Access-Control-Allow-Origin", "*");
   res.header(
     "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
