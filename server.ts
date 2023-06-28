@@ -24,13 +24,14 @@ import authRoutes from "./routes/auth";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 // ==> Main Configuration <== //
-
 config();
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const app = express();
-
+app.use(
+  "/assets",
+  express.static(path.join(__dirname, "public/assets/images"))
+);
 const accessLogStream = createStream("accessLog.log", { path: "./logs" });
 const storage = multer.diskStorage({
   destination: (_req, _res, callback) => {
@@ -54,10 +55,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(logger("dev"));
 app.use(logger("combined", { stream: accessLogStream }));
-app.use(
-  "/assets",
-  express.static(path.join(__dirname, "public/assets/images"))
-);
+
 // ==> ROUTES <== //
 
 app.use("/", rootRoutes);
@@ -72,7 +70,6 @@ app.use("/admin", adminRoutes);
 app.use("/auth", authRoutes);
 // ==> Connect To Database And Run The Server <== //
 
-// const LOCAL_DATABASE = process.env.LOCAL_DATABASE;
 const DATABASE_URL = process.env.DATABASE_URL_CONNECTION;
 const PORT = process.env.PORT;
 
