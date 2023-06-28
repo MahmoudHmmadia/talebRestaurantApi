@@ -39,7 +39,12 @@ const storage = multer.diskStorage({
   },
 });
 const upload = multer({ storage });
-app.use(cors());
+app.use(
+  cors({
+    credentials: true,
+    origin: "https://taleb-restaurant.onrender.com/",
+  })
+);
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 app.use(cookieParser());
