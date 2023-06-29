@@ -28,11 +28,6 @@ config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const app = express();
-app.use(
-  "/assets",
-  express.static(path.join(__dirname, "public/assets/images"))
-);
-const accessLogStream = createStream("accessLog.log", { path: "./logs" });
 const storage = multer.diskStorage({
   destination: (_req, _res, callback) => {
     callback(null, "./public/assets/images");
@@ -42,13 +37,18 @@ const storage = multer.diskStorage({
   },
 });
 const upload = multer({ storage });
-app.use(cors());
-app.use(helmet());
-app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
-app.use(cookieParser());
 app.use(express.json());
 app.use(logger("dev"));
+const accessLogStream = createStream("accessLog.log", { path: "./logs" });
 app.use(logger("combined", { stream: accessLogStream }));
+app.use(helmet());
+app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
+app.use(
+  "/assets",
+  express.static(path.join(__dirname, "public/assets/images"))
+);
+app.use(cors());
+app.use(cookieParser());
 
 // ==> ROUTES <== //
 
@@ -66,7 +66,6 @@ app.use("/auth", authRoutes);
 
 const DATABASE_URL = process.env.DATABASE_URL_CONNECTION;
 const PORT = process.env.PORT;
-
 mongoose
   .connect(DATABASE_URL!)
   .then(() => {
