@@ -42,13 +42,7 @@ const storage = multer.diskStorage({
   },
 });
 const upload = multer({ storage });
-app.use(
-  cors({
-    credentials: true,
-    origin: true,
-    optionsSuccessStatus: 200,
-  })
-);
+app.use(cors());
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 app.use(cookieParser());
