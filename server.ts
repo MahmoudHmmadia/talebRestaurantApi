@@ -50,6 +50,8 @@ app.use(
 app.use(
   cors({
     origin: true,
+    credentials: true,
+    optionsSuccessStatus: 200,
   })
 );
 app.use(cookieParser());
