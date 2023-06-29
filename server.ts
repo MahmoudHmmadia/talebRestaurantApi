@@ -47,7 +47,11 @@ app.use(
   "/assets",
   express.static(path.join(__dirname, "public/assets/images"))
 );
-app.use(cors());
+app.use(
+  cors({
+    origin: true,
+  })
+);
 app.use(cookieParser());
 
 // ==> ROUTES <== //
