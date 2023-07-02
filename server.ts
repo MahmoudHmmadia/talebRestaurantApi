@@ -73,73 +73,10 @@ app.use("/auth", authRoutes);
 
 const DATABASE_URL = process.env.DATABASE_URL_CONNECTION;
 const PORT = process.env.PORT;
-const tables = [
-  {
-    personsNumber: 1,
-  },
-  {
-    personsNumber: 1,
-  },
-  {
-    personsNumber: 2,
-  },
-  {
-    personsNumber: 2,
-  },
-  {
-    personsNumber: 3,
-  },
-  {
-    personsNumber: 3,
-  },
-  {
-    personsNumber: 3,
-  },
-  {
-    personsNumber: 3,
-  },
-  {
-    personsNumber: 4,
-  },
-  {
-    personsNumber: 4,
-  },
-  {
-    personsNumber: 4,
-  },
-  {
-    personsNumber: 5,
-  },
-  {
-    personsNumber: 5,
-  },
-  {
-    personsNumber: 5,
-  },
-  {
-    personsNumber: 6,
-  },
-  {
-    personsNumber: 6,
-  },
-  {
-    personsNumber: 6,
-  },
-  {
-    personsNumber: 7,
-  },
-  {
-    personsNumber: 7,
-  },
-  {},
-  {},
-  {},
-];
 mongoose
   .connect(DATABASE_URL!)
   .then(() => {
     app.listen(PORT, async () => {
-      Table.insertMany(tables);
       console.log(`THE SERVER RUNNING ON PORT ${PORT}`);
     });
   })
