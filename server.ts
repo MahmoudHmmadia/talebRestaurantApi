@@ -23,6 +23,7 @@ import adminRoutes from "./routes/admin";
 import authRoutes from "./routes/auth";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
+import { Table } from "./model/Table";
 // ==> Main Configuration <== //
 config();
 const __filename = fileURLToPath(import.meta.url);
@@ -72,10 +73,73 @@ app.use("/auth", authRoutes);
 
 const DATABASE_URL = process.env.DATABASE_URL_CONNECTION;
 const PORT = process.env.PORT;
+const tables = [
+  {
+    personsNumber: 1,
+  },
+  {
+    personsNumber: 1,
+  },
+  {
+    personsNumber: 2,
+  },
+  {
+    personsNumber: 2,
+  },
+  {
+    personsNumber: 3,
+  },
+  {
+    personsNumber: 3,
+  },
+  {
+    personsNumber: 3,
+  },
+  {
+    personsNumber: 3,
+  },
+  {
+    personsNumber: 4,
+  },
+  {
+    personsNumber: 4,
+  },
+  {
+    personsNumber: 4,
+  },
+  {
+    personsNumber: 5,
+  },
+  {
+    personsNumber: 5,
+  },
+  {
+    personsNumber: 5,
+  },
+  {
+    personsNumber: 6,
+  },
+  {
+    personsNumber: 6,
+  },
+  {
+    personsNumber: 6,
+  },
+  {
+    personsNumber: 7,
+  },
+  {
+    personsNumber: 7,
+  },
+  {},
+  {},
+  {},
+];
 mongoose
   .connect(DATABASE_URL!)
   .then(() => {
     app.listen(PORT, async () => {
+      Table.insertMany(tables);
       console.log(`THE SERVER RUNNING ON PORT ${PORT}`);
     });
   })
