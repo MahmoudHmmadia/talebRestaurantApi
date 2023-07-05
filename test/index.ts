@@ -1,4 +1,4 @@
-// const menu = [
+// export const menu = [
 //   {
 //     imageName: "pizzaMargaritaItalian.png",
 //     name: "Margarita Italian Pizza",
@@ -7,6 +7,7 @@
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "pizza",
+//     blurHash: "LDOw$jk=3Gsn.8t7o#V@3Gnh1%R*",
 //   },
 //   {
 //     imageName: "pizzaMargherita.png",
@@ -16,23 +17,24 @@
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "pizza",
+//     blurHash: "LHL_^9ozCTbbx]kCxuaeLgWC1Qn$",
 //   },
 //   {
 //     imageName: "pizzaPepperoni.png",
 //     name: "Pepperoni Pizza",
 //     info: "The rich and flavorful slices of pepperoni offer an irresistible experience. They add a spicy and tantalizing touch to the pizza, stimulating the senses and taking you on an unforgettable flavor journey. Order now and experience it for yourself!",
 //     price: "37000 SP",
-
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "pizza",
+//     blurHash: "LFMOsj-p8cS}-;oeXSR*C,NG14i_",
 //   },
 //   {
 //     imageName: "pizzaWithBaconSalamiHunting.png",
 //     name: "Pizza With Bacon Salami Hunting",
 //     info: "Experience the authentic taste of Italy with our Classic Italian Pizza topped with luscious mozzarella cheese. Every bite will transport you to the streets of Naples, where pizza originated.",
 //     price: "37000 SP",
-
+//     blurHAsh: "LAL:AX?u3GtQ?vWCbws.7%IU17M{",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "pizza",
@@ -42,7 +44,7 @@
 //     name: "Pizza With Tomato Olives Pepperoni Mushrooms",
 //     info: "some info about special dish",
 //     price: "30000 SP",
-
+//     blurHash: "LGK,89-:Pqt7%NWCt8t6c[NG12RP",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "pizza",
@@ -52,7 +54,7 @@
 //     name: "Classic Italian Pizza With Mozzarella",
 //     info: "some info about special dish",
 //     price: "30000 SP",
-
+//     blurHash: "LHLyfe%LL4xu-;oLkWfiT#NH13Rj",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "pizza",
@@ -65,6 +67,7 @@
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "pizza",
+//     blurHash: "LFLfKz%27ixZyEbFxaoLGwk95?NH",
 //   },
 //   {
 //     imageName: "drink1.png",
@@ -75,6 +78,7 @@
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
+//     blurHash: "LKI$P|jc0IWUpajIt8WpZ[oMSsa{",
 //   },
 //   {
 //     imageName: "drink2.png",
@@ -82,7 +86,7 @@
 //     info: "paloma cocktail",
 //     price: "7500 SP",
 //     type: "cold drinks",
-
+//     blurHash: "LAL44*xw0GDhl,R-,_wN3VR%@uxv",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -93,7 +97,7 @@
 //     info: "glass with strawberry juice",
 //     price: "6000 SP",
 //     type: "cold drinks",
-
+//     blurHash: "LNGa@AayLgs:jJayxaoL^+f6E1kC",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -104,7 +108,7 @@
 //     info: "brazilian frozen berry ice cream plastic cup",
 //     price: "3500 SP",
 //     type: "cold drinks",
-
+//     blurHash: "LLFO.aoJyskBs=f6xafQ^+f6E1kC",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -115,7 +119,7 @@
 //     info: "brazilian frozen berry ice cream plastic cup with strawberry oatmeal flakes",
 //     price: "5000 SP",
 //     type: "cold drinks",
-
+//     blurHash: "LLF=dlxFc[Nb$+oJbvR,^*f6E2kC",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -126,7 +130,7 @@
 //     info: "brazilian frozen berry ice cream smoothie plastic cup with bananas strawberry condensed milk",
 //     price: "8000 SP",
 //     type: "cold drinks",
-
+//     blurHash: "LII4hfEL8J-VtQsTxISh-;smI:oz",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -137,7 +141,7 @@
 //     info: "glass strawberry cocktail with ice strawberry",
 //     price: "8500 SP",
 //     type: "cold drinks",
-
+//     blurHash: "L9K,Hp0y1m}[L1s9]VOYGt$%=LOr",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -148,7 +152,7 @@
 //     info: "glass green apple juice with slice apple",
 //     price: "6000 SP",
 //     type: "cold drinks",
-
+//     blurHash: "LFJREO9@0I=|]XxFP8I=VjxZy5Nd",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -159,7 +163,7 @@
 //     info: "glass strawberry cocktail with ice cubes",
 //     price: "8500 SP",
 //     type: "cold drinks",
-
+//     blurHash: "LEJ?pqbp3sE7xCk9-CV]D3Rj:j-V",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -170,7 +174,7 @@
 //     info: "fresh cocktail with lemon zest",
 //     price: "8500 SP",
 //     type: "cold drinks",
-
+//     blurHash: "LEMjQ:KP03v|VaS4=_ni06i^~lt9",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -181,7 +185,7 @@
 //     info: "glass cucumber cocktail with straw",
 //     price: "4500 SP",
 //     type: "cold drinks",
-
+//     blurHash: "LAKw:,JR03$zz_S1=^r[01s9?]R+",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -192,7 +196,7 @@
 //     info: "drink with mint cucumber glass",
 //     price: "3800 SP",
 //     type: "cold drinks",
-
+//     blurHash: "L8J[YM.A0000FtR;_3k700IV-:-;",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -203,7 +207,7 @@
 //     info: "strawberry milkshake",
 //     price: "8000 SP",
 //     type: "cold drinks",
-
+//     blurHash: "L6JRR0R400yW7$wJ_4E}5Oxa}uNH",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -214,7 +218,7 @@
 //     info: "milkshake cocktail",
 //     price: "10000 SP",
 //     type: "cold drinks",
-
+//     blurHash: "LKO3IJxbIU^i;cRAj0R%};en%LZ}",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -225,7 +229,7 @@
 //     info: "milkshake cocktail",
 //     price: "8000 SP",
 //     type: "cold drinks",
-
+//     blurHash: "LNNJUcxH$~?FveR8$+bE~AaKt2Z~",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -236,7 +240,7 @@
 //     info: "orio milkshake",
 //     price: "12000 SP",
 //     type: "cold drinks",
-
+//     blurHash: "LWIg[k$*~VxZr?xIMyM{_2smn$nN",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -247,7 +251,7 @@
 //     info: "ice tea",
 //     price: "8500 SP",
 //     type: "cold drinks",
-
+//     blurHash: "LNNlY^$+ui-m=XVya1NF_0Vt#Srp",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -258,7 +262,7 @@
 //     info: "polo",
 //     price: "8000 SP",
 //     type: "cold drinks",
-
+//     blurHash: "LMMjHj,L=}X{:%M+WVV@~BITo[-9",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -269,7 +273,7 @@
 //     info: "ice cappuccino",
 //     price: "12000 SP",
 //     type: "cold drinks",
-
+//     blurHash: "LGOfGPw15[~o^5RCrDRi~qVs+?VX",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -280,7 +284,7 @@
 //     info: "Yansoun",
 //     price: "3500 SP",
 //     type: "hot drinks",
-
+//     blurHash: "LJOV}cw{91?a^6VfibV?}aRP%Yrp",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -291,7 +295,7 @@
 //     info: "green tea",
 //     price: "3660 SP",
 //     type: "hot drinks",
-
+//     blurHash: "LHP$Hr9kGI}=}8MovyNDNiv{-3$%",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -302,7 +306,7 @@
 //     info: "coffee",
 //     price: "4800 SP",
 //     type: "hot drinks",
-
+//     blurHash: "LGNS{IrX~p$y+ZRCw0WA|Dt8bt#j",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -313,7 +317,7 @@
 //     info: "tea",
 //     price: "3660 SP",
 //     type: "hot drinks",
-
+//     blurHash: "LLNvJRxH.l=w=Ya5Q-Se~oRPZ#wa",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -324,7 +328,7 @@
 //     info: "iced cola",
 //     price: "7500 SP",
 //     type: "cola",
-
+//     blurHash: "LmN0k[ay?^j]%0j[NHay.8fkIUjZ",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -335,7 +339,7 @@
 //     info: "Enjoy the tangy and refreshing taste of Mirinda Orange!",
 //     price: "7500 SP",
 //     type: "cola",
-
+//     blurHash: "LkOp0%S2ysxFt6j[WBWVx^oLROWV",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -346,7 +350,7 @@
 //     info: "Pepsi Max is the refreshing beverage that offers you the classic Pepsi taste with no sugar. It's the perfect choice for those who are looking for the delicious Pepsi flavor without the sugar.",
 //     price: "7500 SP",
 //     type: "cola",
-
+//     blurHash: "LqLX0#e._Ng3xtayRjofkWbHnjni",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -357,7 +361,7 @@
 //     info: "Experience the light and refreshing taste of Coca-Cola Light!",
 //     type: "cola",
 //     price: "7500 SP",
-
+//     blurHash: "LVM@G$V@_Ntl-payIoofS#f*xajF",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -368,7 +372,7 @@
 //     info: "Get energized with the powerful boost of Monster Energy!",
 //     type: "cola",
 //     price: "8000 SP",
-
+//     blurHash: "LwLqa_j[~qj[oyj[j]fQxbfQRjfQ",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -379,7 +383,7 @@
 //     info: "Enjoy moments of refreshment and exhilaration with the fantastic beverage, 7UP. With a refreshing touch of lemon and a distinctive fizzy flavor, 7UP is the perfect choice to quench your thirst and bring joy to your day.",
 //     type: "cola",
 //     price: "7500 SP",
-
+//     blurHash: "LXMtmkIU~E%2xuj[e;js-;t7M_R*",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -390,7 +394,7 @@
 //     info: "Unleash the refreshing and vibrant taste of Sprite!",
 //     type: "cola",
 //     price: "7500 SP",
-
+//     blurHash: "LIHyaa_N=|a^,NWEScs:N3RP?Gs.",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -401,7 +405,7 @@
 //     info: "Experience the fun and fruity burst of Fanta!",
 //     type: "cola",
 //     price: "7500 SP",
-
+//     blurHash: "LkPFitofuPn$xtkBWXaf$fkBOFWB",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -412,7 +416,7 @@
 //     info: "Experience the timeless and iconic taste of Coca-Cola!",
 //     type: "cola",
 //     price: "8000 SP",
-
+//     blurHash: "LTP6U3ozy?WAx]j[jFj[l9aeicj]",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "drinks",
@@ -423,7 +427,7 @@
 //     name: "stir fried spicy squids",
 //     info: "stir fried spicy squids with thai herbs served rice",
 //     price: "73000 SP",
-
+//     blurHash: "LTMG@jR-.9s+%gbIRPjY.Ts,%1WX",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "meal",
@@ -432,6 +436,7 @@
 //     imageName: "meal2.png",
 //     name: "fried crispy squids roe",
 //     info: "fried crispy squids roe served chili seafood sauce thai food style decoration vegetables",
+//     blurHash: "LWMtEZWV-@afxua#jcfOyFju-Pk9",
 //     price: "29,500 SP",
 
 //     orderTimes: 0,
@@ -442,6 +447,7 @@
 //     imageName: "meal4.png",
 //     name: "fried fish",
 //     info: "fried fish served sweet chili fish sauce thai food popular street food style decoration carved chili vegetables",
+//     blurHash: "LdL|_dRo?w%1%KR*WFs.?dt6V?Rk",
 //     price: "61,500 SP",
 
 //     orderTimes: 0,
@@ -449,6 +455,7 @@
 //     cat: "meal",
 //   },
 //   {
+//     blurHash: "LSLXD4R._4wc%1WXWrs,?wn~%Lbv",
 //     imageName: "meal5.png",
 //     name: "spaghetti bolognese",
 //     info: "spaghetti bolognese lentil curry sauce on top yogurt sauce leaf mint traditional afghanistan india food fusion style decoration carving chili vegetables",
@@ -460,6 +467,7 @@
 //   },
 //   {
 //     imageName: "meal6.png",
+//     blurHash: "LeL;HURk_4oetQWCoMof.Tfii^of",
 //     name: "fried pickled fish",
 //     info: "fried pickled fish sour taste on top crispy shallot chili lime thai food local dish style decoration carving chili vegetables",
 //     price: "66000 SP",
@@ -469,6 +477,7 @@
 //     cat: "meal",
 //   },
 //   {
+//     blurHash: "LcNACrRO.AXAtRt8V@V@.To#Vqs+",
 //     imageName: "meal8.png",
 //     name: "fried bamboo",
 //     info: "deep fried bamboo shoots crispy appetizers dish served sweet peanuts sauce spicy sauce asian food fusion dish decoration with carving chili",
@@ -479,6 +488,7 @@
 //     cat: "meal",
 //   },
 //   {
+//     blurHash: "LbMG-RIA?wo~t6t8WBWA.To}Z~xF",
 //     imageName: "meal9.png",
 //     name: "fried corn",
 //     info: "corn deep fried sweet corn crunchy dish serving mint dipping sauce spicy dipping sauce indian food snack",
@@ -489,6 +499,7 @@
 //     cat: "meal",
 //   },
 //   {
+//     blurHash: "LfLNVze=?wXPXSahspow?wkBwun+",
 //     imageName: "meal10.png",
 //     name: "spicy spaghetti",
 //     info: "spaghetti sam yang spicy sauce with spam ham on top onion cutlet seaweed korean food fusion style decorate with carved vegetable",
@@ -502,6 +513,7 @@
 //     imageName: "meal11.png",
 //     name: "chicken with sauce",
 //     info: "chicken with sauce deep fried hot spicy menu indonesia combination malaysian",
+//     blurHash: "LYLX6:jG?woyxtjaWEkB?wkBs,af",
 //     price: "34.900 SP",
 
 //     orderTimes: 0,
@@ -509,6 +521,7 @@
 //     cat: "meal",
 //   },
 //   {
+//     blurHash: "LYM@M+of.AbEx[WCaLox%%WBwaoy",
 //     imageName: "meal12.png",
 //     name: "cheese corn",
 //     info: "cheese corn dog 3 favorite instant noodles french fries potato bread crumbs inside mozzarella cheese hot gog style korean street food popular break time",
@@ -520,6 +533,7 @@
 //   },
 //   {
 //     imageName: "meal13.png",
+//     blurHash: "LeLgtqM|_4x@x@flnmjY.StPi^M|",
 //     name: "grilled chicken",
 //     info: "grilled chicken drumstick with coconut cream sauce style popular southern thailand black plate decoration onion slice vegetables",
 //     price: "36000 SP",
@@ -530,6 +544,7 @@
 //   },
 //   {
 //     imageName: "meal14.png",
+//     blurHash: "LhL47]R+.Txsf8ofkCRk?^oenhWC",
 //     name: "juicy grilled chicken",
 //     info: "juicy grilled chicken pieces with lemon slice",
 //     price: "37,500 SP",
@@ -544,6 +559,7 @@
 //     info: "To accompany our grilled fish, we offer a variety of delectable sauces and side dishes. From zesty citrus-infused sauces to creamy garlic and herb blends, you can personalize your dining experience to suit your preferences.",
 //     price: "55000 SP",
 
+//     blurHash: "LeLEA]ay~qoft7j[j[f8~qj[IUWV",
 //     orderTimes: 0,
 //     peopleComments: [],
 //     cat: "meal",
@@ -552,6 +568,7 @@
 //     imageName: "meal16.png",
 //     name: "grilled chicken with sauce bowl",
 //     info: "delicious grilled chicken breast with sauce bowl",
+//     blurHash: "LcLzdNog?^aexafkbIoe?^axi^oM",
 //     price: "31,500 SP",
 
 //     orderTimes: 0,
@@ -560,6 +577,7 @@
 //   },
 //   {
 //     imageName: "meal17.png",
+//     blurHash: "LcNA6XNH%%$%xujZWDWX%%t6sQNH",
 //     name: "spaghetti with meatballs",
 //     info: "bowl spaghetti with meatballs basil",
 //     price: "44,600 SP",
@@ -569,6 +587,7 @@
 //     cat: "meal",
 //   },
 //   {
+//     blurHash: "LWNwAzt6_NNH%MfOWBj]?wWBI9t6",
 //     imageName: "meal18.png",
 //     name: "fried kibbeh",
 //     info: "Made from a wonderful combination of ground lamb, bulgur wheat, and flavorful spices, Fried Kibbeh forms into the perfect dough, retaining its moistness and rich taste when fried.",
@@ -579,6 +598,7 @@
 //     cat: "meal",
 //   },
 //   {
+//     blurHash: "LcNACwe.?woztSaen%oz?^a}IAoL",
 //     imageName: "meal19.png",
 //     name: "chicken brayani",
 //     info: "Chicken Biryani offers a unique blend of rich flavors and aromatic spices. It is carefully prepared to deliver a delicious and satisfying meal",
@@ -590,6 +610,7 @@
 //   },
 //   {
 //     imageName: "meal20.png",
+//     blurHash: "LlOWA{bG%%oLxuj[WCfPtmjtVsfk",
 //     name: "pilaf with meat",
 //     info: "pilaf with meat dried fruit raisins bowl",
 //     price: "19,500 SP",
@@ -600,6 +621,7 @@
 //   },
 //   {
 //     imageName: "meal21.png",
+//     blurHash: "LnO:Laozu6V@xtazWEfkt-ayZ~j[",
 //     name: "chicken strips",
 //     info: "concept fast food with chicken strips",
 //     price: "34000 SP",
@@ -609,6 +631,7 @@
 //     cat: "meal",
 //   },
 //   {
+//     blurHash: "LeLEA;Rl_4t5t7azoMoe_4t5RiRl",
 //     imageName: "meal22.png",
 //     name: "grilled bacon golden needle",
 //     info: "yakitori grilled bacon golden needle",
@@ -620,6 +643,7 @@
 //   },
 //   {
 //     imageName: "meal23.png",
+//     blurHash: "LbLNrZNH_4xstQfRjJjZ?wt6nhRk",
 //     name: "fried fish without bone with rice",
 //     info: "fried fish without bone with rice recipe served sweet chili fish sauce thai food popular street food style decoration carved chili vegetables",
 //     price: "43.5000 SP",
@@ -630,6 +654,7 @@
 //   },
 //   {
 //     imageName: "meal24.png",
+//     blurHash: "LfK^{Nai_4ovtPaijcoc_NjbV?bF",
 //     name: "stir fried spicy catfish",
 //     info: "stir fried spicy catfish with herb thai food pad cha decoration carving chili vegetables",
 //     price: "69000 SP",
@@ -640,6 +665,7 @@
 //   },
 //   {
 //     imageName: "meal25.png",
+//     blurHash: "LdLX6*Rn?wsmxtWEj]oK.AocxUba",
 //     name: "crispy rice noodles",
 //     info: "crispy rice noodles sweet sour on top spring onion cutlet bean sprout thai food appetizer dish decorate lime vegetables",
 //     price: "29,500 SP",
@@ -653,6 +679,7 @@
 //     name: "steamed fish curry with coconut cream",
 //     info: "steamed fish curry with coconut cream rice recipe served boiled egg chili sauce thai street food style decoration carved chili peppers",
 //     price: "55,400 SP",
+//     blurHash: "LaL|=RSx?drux?kCV{ae.Tspw[X4",
 
 //     orderTimes: 0,
 //     peopleComments: [],
@@ -660,6 +687,7 @@
 //   },
 //   {
 //     imageName: "meal27.png",
+//     blurHash: "LbM?|~r_?wt2x@kVWEV@yskSnONb",
 //     name: "Pngtree",
 //     info: "Pngtree",
 //     price: "19000 SP",
@@ -673,6 +701,7 @@
 //     imageName: "broccoli.png",
 //     name: "bowl broccoli",
 //     info: "bowl broccoli brussels sprouts",
+//     blurHash: "LeMtQ$R*?dxZx@j[V^j[?dofNER*",
 //     price: "5000 SP",
 
 //     orderTimes: 0,
@@ -681,6 +710,7 @@
 //   },
 
 //   {
+//     blurHash: "LfLzjZt7?woJoyWBoft6t-kC-UM|",
 //     imageName: "egg.png",
 //     name: "egg toast",
 //     info: "plate half fried egg toast",
@@ -691,6 +721,7 @@
 //     cat: "breakFast",
 //   },
 //   {
+//     blurHash: "LCNA#RVr.T%g?aWCNHxa_Nb^}RZ~",
 //     imageName: "egg2.png",
 //     name: "fried egg",
 //     info: "fried egg asparagus",
@@ -702,6 +733,7 @@
 //   },
 //   {
 //     imageName: "egg3.png",
+//     blurHash: "LcMt8Ms,?wNet7fij[j[.AWXaIs,",
 //     name: "egg omelet",
 //     info: "tasty egg omelet with vegetables",
 //     price: "17000 SP",
@@ -712,6 +744,7 @@
 //   },
 //   {
 //     imageName: "egg4.png",
+//     blurHash: "LiNv}Nn%?wXRbbWXs:s.pJf*nNae",
 //     name: "fried eggs",
 //     info: "fried eggs egg yolk breakfast cup coffee liquid fresh meal snack table",
 //     price: "9000 SP",
@@ -722,6 +755,7 @@
 //   },
 //   {
 //     imageName: "cheese.png",
+//     blurHash: "LZNJ%iaf.Todo#jZn~j].9fkRPj]",
 //     name: "cheese snacks",
 //     info: "Our cheese snacks offer an irresistible experience of fresh and enjoyable cheese. Our diverse range of cheese snacks comes in various shapes and sizes, such as sticks, balls, and triangles, to cater to all your tastes and preferences",
 //     price: "21000 SP",
@@ -732,6 +766,7 @@
 //   },
 
 //   {
+//     blurHash: "LfNS:1jt.moetQbHf8oJ.mfkR5WV",
 //     imageName: "fruits.png",
 //     name: "dried fruits",
 //     info: "Experience the natural and healthy goodness of our diverse selection of delicious dried fruits. Carefully chosen and delicately dried, our fruits maintain their nutritional value and natural flavors",
@@ -742,6 +777,7 @@
 //     cat: "breakFast",
 //   },
 //   {
+//     blurHash: "LNPZGdj=lCs;%Mj[WEa|u6jvVqWU",
 //     imageName: "hummus.png",
 //     name: "hummus",
 //     info: "Our plate of hummus offers an authentic and refreshing taste that reflects our Arabic heritage. The hummus has a smooth texture and a rich flavor from a blend of ground chickpeas and extra virgin olive oil. It is served with a drizzle of fragrant olive oil and tantalizing spices",
@@ -753,6 +789,7 @@
 //   },
 //   {
 //     imageName: "olives.png",
+//     blurHash: "LgNmWVbF%%jIxua}WDoL%%oLnfW;",
 //     name: "olives",
 //     info: "fresh green olives bow",
 //     price: "3000 SP",
@@ -763,6 +800,7 @@
 //   },
 //   {
 //     imageName: "fish.png",
+//     blurHash: "LhNJqDaz.Ts.%1a}R+oK.Tj[VXWV",
 //     name: "fish nuggets",
 //     info: "Fish Nuggets offer a magical experience for fish lovers. These nuggets feature a crispy and exciting outer layer, revealing a tender and flavorful inside. They are perfect for snacking or as a main meal",
 //     price: "18,500 SP",
@@ -774,6 +812,7 @@
 
 //   {
 //     imageName: "salad1.png",
+//     blurHash: "LYHoB%t7_4j]t8j[oyay_4WC-.ay",
 //     name: "fresh salad",
 //     info: "appetizing fresh salad with green leaf arugula tomatoes",
 //     price: "13000 SP",
@@ -784,6 +823,7 @@
 //   },
 
 //   {
+//     blurHash: "LpLNxtWB~Xoft7j[kBjt%Nj[WAfQ",
 //     imageName: "salad2.png",
 //     name: "italian salad",
 //     info: "fresh italian salad with mozzarella tomatoes dark plate",
@@ -795,6 +835,7 @@
 //   },
 //   {
 //     imageName: "salad3.png",
+//     blurHash: "LcLqX%jc_4f~tQjuo3bF_4f$W8ag",
 //     name: "chicken salad",
 //     info: "chicken spicy salad with vegetables dish fusion healthy clean food diet food",
 //     price: "26000 SP",
@@ -805,6 +846,7 @@
 //   },
 //   {
 //     imageName: "salad4.png",
+//     blurHash: "LeL4f?jI.AWXt6jbj]kA.AbF$yoe",
 //     name: "mongo salad",
 //     info: "mango spicy salad with shrimps cashew nut thai food spicy sour sweet dish decorate vegetable",
 //     price: "15000 SP",
@@ -816,6 +858,7 @@
 //   {
 //     imageName: "salad5.png",
 //     name: "pasta salad",
+//     blurHash: "LcNvrWWVyss:t7oebHWV*0oerqR+",
 //     info: "bowl pasta with tuna tomatoes",
 //     price: "27000 SP",
 
@@ -825,6 +868,7 @@
 //   },
 //   {
 //     imageName: "salad6.png",
+//     blurHash: "LSPGBJoy*0aexuj[WVayyZafMcbF",
 //     name: "pasta salad with olives",
 //     info: "plate pasta with olives",
 //     price: "27000 SP",
@@ -835,6 +879,7 @@
 //   },
 
 //   {
+//     blurHash: "LfLNPcso.TbZt7jbkBbG?wWWsnaz",
 //     imageName: "salad7.png",
 //     name: "fresh grilled salad",
 //     info: "fresh grilled mix vegetables salad",
@@ -846,6 +891,7 @@
 //   },
 //   {
 //     imageName: "salad8.png",
+//     blurHash: "LZN0^[fk_4oLxuayWCoe~qfQ9Fa{",
 //     name: "tabboulah",
 //     info: "mixture of cooked bulgur, minced parsley, ripe tomatoes, onions, mint, lemon juice, olive oil, and spices. cooked bulgur the base of the dish, providing a unique texture and flavor",
 //     price: "15000 SP",
@@ -857,6 +903,7 @@
 
 //   {
 //     imageName: "burger1.png",
+//     blurHash: "LYOC+;Mx*0x[={oekqoe_4oyIVWE",
 //     name: "Special Cheese burger",
 //     info: "The Special Cheese Burger stands out with its tasty and enticing composition. It features a juicy, perfectly grilled beef patty placed on a soft bun. It is beautifully topped with thick and melty slices of cheese, adding a creamy texture and rich flavor to the burger.",
 //     price: "26000 SP",
@@ -869,6 +916,7 @@
 
 //   {
 //     imageName: "burger2.png",
+//     blurHash: "LYN9:u$%t.RQ^*oeNIjZ_4S1Rjt6",
 //     name: "Gourmet Burger",
 //     info: "The Gourmet Burger stands out with its quality and unique taste. It is prepared with a high-quality patty, such as prime beef or turkey, expertly grilled to perfection. A touch of luxury is added to the burger through special spices and premium ingredients.",
 //     type: "burger",
@@ -880,6 +928,7 @@
 //   },
 //   {
 //     imageName: "burger3.png",
+//     blurHash: "LiL4ZxRk?bt6tRj[oea#?woeV@WC",
 //     name: "burger with extra cheese",
 //     info: "Cheeseburger With Vegetables",
 //     type: "burger",
@@ -890,6 +939,7 @@
 //     cat: "fastFood",
 //   },
 //   {
+//     blurHash: "LbMF]=t7?wWD=|kBbvWB%gbIkqn%",
 //     imageName: "burger4.png",
 //     name: "Cheeseburger",
 //     info: "Cheeseburger With Vegetables",
@@ -902,6 +952,7 @@
 //   },
 //   {
 //     imageName: "burger5.png",
+//     blurHash: "LkNA6ObH.8j]%Mj[R-ay?wf6M{oe",
 //     name: "Tomato Burger",
 //     info: "The Tomato Burger stands out with its mild and refreshing flavor, as it utilizes tomatoes as a key ingredient in its preparation. It is served on a soft and distinctive bun, and can be customized with additions such as ripe tomato slices, fresh lettuce, and delicious sauce.",
 //     type: "burger",
@@ -913,6 +964,7 @@
 //   },
 //   {
 //     imageName: "burger6.png",
+//     blurHash: "LaNTB$so?^WVxukBWCay.TbFMwja",
 //     name: "brown bun burger",
 //     info: "The Brown Bun Burger stands out with its attractive and distinctive appearance, as it is served on a soft and toasted brown bun. It offers a different twist compared to traditional burger buns. Placed on the brown bun is a delicious patty that has been carefully prepared, whether it's beef, chicken, or any other preferred choice",
 //     type: "burger",
@@ -924,6 +976,7 @@
 //   },
 //   {
 //     imageName: "burger7.png",
+//     blurHash: "LfOyw;WV*0t6%2j[SMayyYj?R4f6",
 //     name: "chicken burger with cucumber",
 //     info: "The Chicken Burger with Cucumber offers a delightful combination of flavors. It starts with a juicy and tender chicken patty, seasoned to perfection and grilled to a golden brown. Topped with slices of crisp and cool cucumber, it adds a refreshing and crunchy element to each bite",
 //     type: "burger",
@@ -935,6 +988,7 @@
 //   },
 //   {
 //     imageName: "burger8.png",
+//     blurHash: "LSPG1_s:u6WW%ga}RioL*0WVQ,oK",
 //     name: "burger with fried shrimps",
 //     info: "burger with fried shrimps vegetables",
 //     type: "burger",
@@ -946,6 +1000,7 @@
 //   },
 //   {
 //     imageName: "burger9.png",
+//     blurHash: "LZN,JBj=.TWY?HofNHWC?wa}M_oI",
 //     name: "Cheese Buffalo Burger",
 //     info: "The Cheese Buffalo Burger is a tantalizing creation that combines the bold and spicy flavors of buffalo sauce with the creamy goodness of cheese. It starts with a juicy and succulent beef patty cooked to perfection, infused with the rich and tangy buffalo sauce",
 //     type: "burger",
@@ -958,6 +1013,7 @@
 //   {
 //     imageName: "burger10.png",
 //     name: "Veggie Chicken Burger Sandwich",
+//     blurHash: "LbNJXit6.TRkx[fjRkaz_NWBM{of",
 //     info: "The Veggie Chicken Burger Sandwich is a delightful and satisfying option for those looking for a flavorful vegetarian twist on the classic chicken burger. It starts with a delicious and tender veggie chicken patty made from a blend of plant-based ingredients, carefully seasoned to perfection",
 //     type: "burger",
 //     price: "25000 SP",
@@ -969,6 +1025,7 @@
 
 //   {
 //     imageName: "fastFood2.png",
+//     blurHash: "LbNc$oWB?wt7%Mo}RjVs.9a#Mxae",
 //     name: "shawarma",
 //     info: "shawarma with meat vegetables",
 //     price: "15000 SP",
@@ -980,6 +1037,7 @@
 //   },
 //   {
 //     imageName: "fastFood3.png",
+//     blurHash: "LeN,SXWU.TsptQtRogV?yYjER5X9",
 //     name: "taco",
 //     info: "Taco, the iconic dish renowned worldwide, takes you on a flavor-packed journey. Enjoy the crispy and soft tortilla shell, filled with savory and seasoned meat that will tantalize your taste buds. Or opt for the vegetarian version, bursting with fresh vegetable flavors and seasoned with unique spices.",
 //     price: "17000 SP",
@@ -992,6 +1050,7 @@
 
 //   {
 //     imageName: "fastFood4.png",
+//     blurHash: "LnPFipofpJj@yDbHWCfQp{WUa0jZ",
 //     name: "hotdog",
 //     info: "The Hot Dog Sandwich is a timeless and satisfying choice. It features a juicy and flavorful hot dog nestled in a soft bun, topped with your favorite condiments and toppings",
 //     price: "13000 SP",
@@ -1003,6 +1062,7 @@
 //   },
 //   {
 //     imageName: "fastFood9.png",
+//     blurHash: "LgO{]ikCtmWBxZaybIj[yZfjROoM",
 //     name: "Cheese steak Chicken Sandwich",
 //     info: "Cheese steak Chicken Sandwich",
 //     price: "21000 SP",
@@ -1015,6 +1075,7 @@
 //   {
 //     imageName: "fastFood10.png",
 //     name: "Ham and Cheese Sandwich",
+//     blurHash: "LYP$m.WBX.o2xunNWBbwYRs:n3Wq",
 //     info: "The Ham and Cheese Sandwich offers a perfect balance between the distinctive flavor of ham and the deliciousness of cheese. The sandwich is filled with tasty ham slices and creamy cheese, creating a flavorful and satisfying taste",
 //     price: "22000 SP",
 //     type: "sandwiches",
@@ -1025,6 +1086,7 @@
 //   },
 //   {
 //     imageName: "fastFood12.png",
+//     blurHash: "LkOMmRoJx]j]xGofkCax.Ta#ROax",
 //     name: "Beef Roast Sandwich",
 //     info: "The Beef Roast Sandwich offers an unforgettable flavor experience. With every bite, you'll savor the tenderness and juiciness of the perfectly seasoned roast beef slices",
 //     price: "20000 SP",
@@ -1036,6 +1098,7 @@
 //   },
 //   {
 //     imageName: "fastFood13.png",
+//     blurHash: "LjOMKXoJyEbHx]V?VtozysWVV?nj",
 //     name: "Hot Dog Sandwich",
 //     info: "The Hot Dog Sandwich is a timeless and satisfying choice. It features a juicy and flavorful hot dog nestled in a soft bun, topped with your favorite condiments and toppings",
 //     price: "13000 SP",
@@ -1047,6 +1110,7 @@
 //   },
 //   {
 //     imageName: "fastFood14.png",
+//     blurHash: "LWPF_txBpeR,%0nhWCbcu6R+Z~og",
 //     name: "Melted Cheese Grill Sandwich Panini",
 //     info: "The Melted Cheese Grill Sandwich Panini is a mouthwatering delight that combines the rich flavors of melted cheese and grilled bread. With every bite, you'll experience the warm, gooey cheese oozing out from between perfectly toasted bread slices",
 //     price: "22000 SP",
@@ -1059,6 +1123,7 @@
 //   {
 //     imageName: "fastFood19.png",
 //     name: "Realistic Cheese Hot Dog Sandwich",
+//     blurHash: "LmO.muoItnbI-nZ~RQkDlVe-nNaf",
 //     info: "This mouthwatering creation takes the classic hot dog to a whole new level. Imagine sinking your teeth into a perfectly grilled hot dog nestled in a soft bun, topped with a generous amount of melty, realistic cheese",
 //     price: "22000 SP",
 //     type: "sandwiches",
@@ -1069,6 +1134,7 @@
 //   },
 //   {
 //     imageName: "fastFood1.png",
+//     blurHash: "LOP6jZoy.TV[rWoftRV@yYafMdkA",
 //     name: "rolled egg korean",
 //     info: "korean egg rolled omelette skewers style mari delicious omelette made eggs layer topping spicy sauce mayonnaise custards sauce",
 //     price: "12000 SP",
@@ -1081,6 +1147,7 @@
 
 //   {
 //     imageName: "fastFood5.png",
+//     blurHash: "LiO{y~ayt-bI-:kCM|aepyfknMoe",
 //     name: "Cheese French Fries",
 //     info: "These golden and crispy French fries are taken to the next level with a generous topping of melted cheese. Each fry is coated in a luscious layer of melted cheese, creating a perfect blend of savory and creamy flavors",
 //     price: "10000 SP",
@@ -1092,6 +1159,7 @@
 //   },
 //   {
 //     imageName: "fastFood6.png",
+//     blurHash: "LeP$zFj?Xobc%Lj[RlazPXa{rpjY",
 //     name: "Cheese Garlic Bread",
 //     info: "Our Cheese Garlic Bread is a mouthwatering combination of warm, oven-baked bread infused with the rich aroma of garlic and generously topped with melted cheese. Each bite offers a perfect balance of savory garlic, buttery goodness, and the delightful stretchiness of melted cheese",
 //     price: "8000 SP",
@@ -1103,6 +1171,7 @@
 //   },
 //   {
 //     imageName: "fastFood7.png",
+//     blurHash: "LiPPS}oJpJofxYo#W=V@u6W=VsjF",
 //     name: "Cheese Lasagne White Sauce Pasta Italian",
 //     info: "Our Cheese Lasagne is expertly layered with al dente pasta sheets, rich white sauce, and a blend of gooey, melted cheeses. Each bite is a symphony of flavors as the creamy white sauce coats the pasta, while the melted cheeses add a deliciously cheesy and savory element",
 //     price: "9000 SP",
@@ -1115,6 +1184,7 @@
 //   {
 //     imageName: "fastFood8.png",
 //     name: "Cheese Sticks Fingers",
+//     blurHash: "LbOfx%t5%$NI%1f5NIkC*0R+VXt6",
 //     info: "Our Cheese Sticks Fingers are a delectable appetizer or snack that will satisfy your cheese cravings. Made with a savory breading and filled with a warm and gooey cheese center, each bite is a delightful combination of crunchy and melty textures",
 //     price: "15000 SP",
 //     type: "snacks",
@@ -1126,6 +1196,7 @@
 
 //   {
 //     imageName: "fastFood11.png",
+//     blurHash: "LbO{s^ofu4fi-;bHRPjZuPWUeSfk",
 //     name: "Delicious Lasagne Pasta Italian",
 //     info: "Our Delicious Lasagne Pasta is crafted with layers of tender pasta sheets, savory meat or vegetable filling, and a rich tomato sauce. Each bite is a heavenly combination of flavors, with the pasta cooked to perfection and the sauce infusing every layer with deliciousness.",
 //     price: "17000 SP",
@@ -1138,6 +1209,7 @@
 
 //   {
 //     imageName: "fastFood15.png",
+//     blurHash: "LkN,b-e.yDaz%LfQWEju?^kCR5j[",
 //     name: "Minced Meat Lasagna Pasta Bolognese Plate",
 //     info: "Our Minced Meat Lasagna is a culinary masterpiece that combines layers of perfectly cooked pasta sheets with a rich and flavorful Bolognese sauce. Each layer is generously filled with a mouthwatering mixture of seasoned minced meat, aromatic herbs, and a savory tomato sauce",
 //     price: "18000 SP",
@@ -1149,6 +1221,7 @@
 //   },
 //   {
 //     imageName: "fastFood16.png",
+//     blurHash: "LbO{:Qt8yEV@xaaxadkD*0WAM_of",
 //     name: "French Fries With Brown Sauce",
 //     info: "Dip your fries into the rich and savory brown sauce, which adds a depth of flavor and a touch of tanginess. The combination of the crispy fries and the flavorful sauce is a match made in culinary heaven, offering a delightful and satisfying snacking experience",
 //     price: "14000 SP",
@@ -1160,6 +1233,7 @@
 //   },
 //   {
 //     imageName: "fastFood17.png",
+//     blurHash: "LkN,JEa$%$oexYa#WWj@.Tk9ROWC",
 //     name: "Nuggets, French Fries And Ketchup",
 //     info: "Plate Of Nuggets, French Fries And Ketchup",
 //     price: "14000 SP",
@@ -1171,6 +1245,7 @@
 //   },
 //   {
 //     imageName: "fastFood18.png",
+//     blurHash: "LmNSW,xZ%$Nx%MWWbHoe*JR+aKoL",
 //     name: "Spicy French Fries",
 //     info: "Our Spicy French Fries are perfectly seasoned with a tantalizing blend of spices, delivering a kick of heat with every bite. These crispy golden fries are coated in a zesty seasoning that adds a fiery twist to the classic favorite",
 //     price: "17000 SP",
@@ -1183,6 +1258,7 @@
 
 //   {
 //     imageName: "iceCream1.png",
+//     blurHash: "LWOpY?t7.TMxxvazj=of%$WBITof",
 //     name: "ice cream A",
 //     info: "yummy ice cream cup",
 //     price: "11000 SP",
@@ -1195,6 +1271,7 @@
 //   {
 //     imageName: "iceCream2.png",
 //     name: "ice cream B",
+//     blurHash: "LLO:bAxv.mIU-:X8RjsAyrWnR5sp",
 //     info: "yummy ice cream cup",
 //     price: "15000 SP",
 //     type: "ice cream",
@@ -1205,6 +1282,7 @@
 //   },
 //   {
 //     imageName: "iceCream3.png",
+//     blurHash: "LLOWZ;O@_N,o%gbcV?s9.9rqMxOY",
 //     name: "ice cream C",
 //     info: "yummy ice cream cup",
 //     price: "11000 SP",
@@ -1217,6 +1295,7 @@
 //   {
 //     imageName: "iceCream4.png",
 //     name: "ice cream D",
+//     blurHash: "LYNJ|6xa_NIotRfPs:of?bR*IUw{",
 //     info: "yummy ice cream cup",
 //     price: "11000 SP",
 //     type: "ice cream",
@@ -1227,6 +1306,7 @@
 //   },
 //   {
 //     imageName: "iceCream5.png",
+//     blurHash: "LPOpc3xu?^IU?IayIoofkrRjemtR",
 //     name: "ice cream E",
 //     info: "yummy ice cream cup",
 //     price: "9000 SP",
@@ -1237,6 +1317,7 @@
 //     cat: "sweet",
 //   },
 //   {
+//     blurHash: "LOOWQmo}_NZ~x[V[f+t7%#oyMdRk",
 //     imageName: "iceCream6.png",
 //     name: "ice cream F",
 //     info: "yummy ice cream cup",
@@ -1249,6 +1330,7 @@
 //   },
 //   {
 //     imageName: "iceCream7.png",
+//     blurHash: "LXOf=Gxt.TIV%fayRjof.9RkITxa",
 //     name: "ice cream G",
 //     info: "yummy ice cream cup",
 //     price: "11000 SP",
@@ -1259,6 +1341,7 @@
 //     cat: "sweet",
 //   },
 //   {
+//     blurHash: "LSN^MHxu_NIU%Ma|V@of?cRQE0tQ",
 //     imageName: "iceCream8.png",
 //     name: "ice cream H",
 //     info: "yummy ice cream cup",
@@ -1272,6 +1355,7 @@
 //   {
 //     imageName: "iceCream9.png",
 //     name: "ice cream I",
+//     blurHash: "LUNwD.xZ_NNa%NfQV@j[.8NvIUsA",
 //     info: "yummy ice cream cup",
 //     price: "11000 SP",
 //     type: "ice cream",
@@ -1282,6 +1366,7 @@
 //   },
 //   {
 //     imageName: "iceCream11.png",
+//     blurHash: "LcOfrqsp.TNZx[juWCfiyrX5Mdr^",
 //     name: "ice cream K",
 //     info: "yummy ice cream cup",
 //     price: "11000 SP",
@@ -1292,6 +1377,7 @@
 //     cat: "sweet",
 //   },
 //   {
+//     blurHash: "LbL4c_WV_NxHt7fRkBj?_NoeaJR*",
 //     imageName: "iceCream12.png",
 //     name: "ice cream L",
 //     info: "chocolate ice cream cones with leaf",
@@ -1304,6 +1390,7 @@
 //   },
 //   {
 //     imageName: "iceCream13.png",
+//     blurHash: "LaMa9RRj~qxuxuj[ayj[~qofD%ay",
 //     name: "ice cream M",
 //     info: "plate chocolate ice cream with nuts",
 //     price: "11000 SP",
@@ -1315,6 +1402,7 @@
 //   },
 
 //   {
+//     blurHash: "LUP6dFENt.-U%gs.aLWYu6%0Z~I;",
 //     imageName: "cake1.png",
 //     name: "lemon cake",
 //     info: "cake with lemon icing mint leaf",
@@ -1328,6 +1416,7 @@
 
 //   {
 //     imageName: "cake3.png",
+//     blurHash: "LPODB_x[.TIA?cW=R%s9%$WEMxoc",
 //     name: "chocolate cake",
 //     info: "tasty rainbow ice cream cake with chocolate dripping",
 //     price: "9500 SP",
@@ -1339,6 +1428,7 @@
 //   },
 //   {
 //     imageName: "cake4.png",
+//     blurHash: "LkM?*pS4?^xF%gWVRkof%#s:MxRk",
 //     name: "icing lemon cake",
 //     info: "cake with lemon icing mint leaf",
 //     price: "5600 SP",
@@ -1351,6 +1441,7 @@
 //   {
 //     imageName: "cake5.png",
 //     name: "cake with chocolate topping",
+//     blurHash: "LUP6dFENt.-U%gs.aLWYu6%0Z~I;",
 //     info: "tasty cake with chocolate topping",
 //     price: "11000 SP",
 //     type: "cake",
@@ -1362,6 +1453,7 @@
 
 //   {
 //     imageName: "corn.png",
+//     blurHash: "LeMG^ca#.Ak9tQRnn,xpt:ay${bF",
 //     name: "corn",
 //     info: "cambodian grilled corn pot ang with coconut milk spring onion one cambodians favorite summer snack",
 //     price: "14000 SP",
@@ -1374,6 +1466,7 @@
 //   {
 //     imageName: "croissant.png",
 //     name: "Croissant",
+//     blurHash: "LqN,C~R+tmoKxuaebbof*0t6aJfR",
 //     info: "croissant with brown crust",
 //     price: "4500 SP",
 //     type: "others",
@@ -1384,6 +1477,7 @@
 //   },
 //   {
 //     imageName: "pie.png",
+//     blurHash: "LiNl}dH?x^x]xuaxWBa|.mt7R5a}",
 //     name: "Pie",
 //     info: "fresh pie slice",
 //     price: "4300 SP",
@@ -1395,6 +1489,7 @@
 //   },
 //   {
 //     imageName: "cinnamon-roll.png",
+//     blurHash: "LjL|M:Rk?wxaxZt7X8ae.So0aKW=",
 //     name: "cinnamon roll",
 //     info: "cinnamon roll with brown bun",
 //     price: "10000 SP",
@@ -1406,6 +1501,7 @@
 //   },
 //   {
 //     imageName: "stick.png",
+//     blurHash: "LDO:eHX8*0t7-:.Ta}H=t.X9HqnO",
 //     name: "fresh tasty stick",
 //     info: "fresh tasty stick",
 //     price: "3500 SP",
@@ -1417,6 +1513,7 @@
 //   },
 //   {
 //     imageName: "loaf-bread.png",
+//     blurHash: "LoO.%IRkuPt6t6a#j[oJt-oei^WC",
 //     name: "Loaf bread",
 //     info: "loaf bread",
 //     price: "4000 SP",
@@ -1429,6 +1526,7 @@
 //   {
 //     imageName: "brown-spiral.png",
 //     name: "brown spiral",
+//     blurHash: "LhN00ZNI.m$%t7WBa}of.Ts,V@R-",
 //     info: "brown spiral cinnamon bun",
 //     price: "7000 SP",
 //     type: "others",
@@ -1439,6 +1537,7 @@
 //   },
 //   {
 //     imageName: "fresh-pretzel.png",
+//     blurHash: "LHPY^%ROlVtSyDZzjEo~u5ozV?V@",
 //     name: "pretzel",
 //     info: "fresh pretzel",
 //     price: "11750 SP",
@@ -1450,6 +1549,7 @@
 //   },
 //   {
 //     imageName: "cereal1.png",
+//     blurHash: "LYOWQXSiyGw]fkj[offQ%joIaIS4",
 //     name: "banana cereal",
 //     info: "tasty cereal with banana slices",
 //     price: "10000 SP",
@@ -1462,6 +1562,7 @@
 //   {
 //     imageName: "cereal2.png",
 //     name: "blueberries cereal",
+//     blurHash: "LYOWQXSiyGw]fkj[offQ%joIaIS4",
 //     info: "bowl cereal with blueberries pecans",
 //     price: "12000 SP",
 //     type: "others",
@@ -1473,6 +1574,7 @@
 
 //   {
 //     imageName: "waffle.png",
+//     blurHash: "LWNc=~R+_NxG-;jFRQbc_Nt6D%Rk",
 //     name: "waffle with berries",
 //     info: "waffle with berries syrup pan",
 //     price: "12000 SP",
@@ -1484,6 +1586,7 @@
 //   },
 //   {
 //     imageName: "loaf-bread2.png",
+//     blurHash: "LbPiI,oJc[WXxukXWDa0YkWXm+oc",
 //     name: "loaf",
 //     info: "loaf bread with crust",
 //     price: "4000 SP",
@@ -1499,6 +1602,7 @@
 //     info: "donut with chocolate with brown stripe",
 //     price: "7000 SP",
 //     type: "others",
+//     blurHash: "LePPP,Rlu6xYxtoLWWayT#t5rpRl",
 
 //     orderTimes: 0,
 //     peopleComments: [],
@@ -1506,6 +1610,7 @@
 //   },
 //   {
 //     imageName: "donut2.png",
+//     blurHash: "LbOfP;xt.mM{xvWVaxs:u3R%RQog",
 //     name: "pink donut",
 //     info: "pink donut with sprinkles",
 //     price: "7000 SP",
@@ -1517,6 +1622,7 @@
 //   },
 //   {
 //     imageName: "donut3.png",
+//     blurHash: "LWO{%DocuPkD%LofR,WV*0WBR4j[",
 //     name: "sugar donut",
 //     info: "fresh donut powdered sugar leaf",
 //     price: "12000 SP",
@@ -1529,6 +1635,7 @@
 //   {
 //     imageName: "donut4.png",
 //     name: "candy donut",
+//     blurHash: "LaKKWlkC_NoLtRofofay_Nj[j[WC",
 //     info: "chocolate donut with candy sprinkles",
 //     price: "12000 SP",
 //     type: "others",
@@ -1539,6 +1646,7 @@
 //   },
 //   {
 //     imageName: "honey.png",
+//     blurHash: "LfOfrmof.9WC%gj[M{ay*0WCMxs.",
 //     name: "organic honey",
 //     info: "fresh organic honey with honey dipper",
 //     price: "14000 SP",
@@ -1549,6 +1657,7 @@
 //     cat: "sweet",
 //   },
 //   {
+//     blurHash: "LiL;8ENG_Nxt%LWCR+of?vs:MxR*",
 //     imageName: "chocolate1.png",
 //     name: "chocolate chip",
 //     info: "chocolate chip muffin with chocolate chips",
@@ -1561,6 +1670,7 @@
 //   },
 //   {
 //     imageName: "chocolate2.png",
+//     blurHash: "LXM@TFoz_Nj[jradogoz?vjZMdWB",
 //     name: "chocolate covered sandwiches",
 //     info: "chocolate covered sandwiches with strawberry slices",
 //     price: "7000 SP",
@@ -1573,6 +1683,7 @@
 //   {
 //     imageName: "kiwi.png",
 //     name: "slice bread with kiwi",
+//     blurHash: "LVNms9NF?dxu%MWARjt8?dt7M^Rk",
 //     info: "chocolate covered sandwiches with strawberry slices",
 //     price: "7000 SP",
 //     type: "others",
@@ -1584,6 +1695,7 @@
 //   {
 //     imageName: "nuts.png",
 //     name: "nuts",
+//     blurHash: "LZNJauNH.TxZxua|aeaf.Tt6adRk",
 //     info: "mix dried nuts bowl",
 //     price: "17000 SP",
 //     type: "others",
@@ -1594,6 +1706,7 @@
 //   },
 //   {
 //     imageName: "stack.png",
+//     blurHash: "LjNl=6Ip%hxa-os9NdR+.TxZM{R-",
 //     name: "waffles stack",
 //     info: "stack syrup waffles",
 //     price: "7000 SP",
@@ -1605,6 +1718,7 @@
 //   },
 //   {
 //     imageName: "waffle1.png",
+//     blurHash: "LgM@J,oJ_4WYt7fka#j@.9WWMws.",
 //     name: "berries waffles",
 //     info: "waffle with berries scoop vanilla ice cream",
 //     price: "14000 SP",
@@ -1617,6 +1731,7 @@
 //   {
 //     imageName: "pastry.png",
 //     name: "sweet pastry",
+//     blurHash: "LZNTBvWB?wW;ozj[ofj[?wfkM{s:",
 //     info: "assortment traditional sweet pastry",
 //     price: "22000 SP",
 //     type: "others",

@@ -5,8 +5,8 @@
   "main": "server.ts",
   "type": "module",
   "scripts": {
-    "dev": "nodemon  --experimental-specifier-resolution=node server.ts ",
-    "start": "ts-node --experimental-specifier-resolution=node server.ts"
+    "dev": "tsx watch --experimental-specifier-resolution=node server.ts ",
+    "start": "nodemon --experimental-specifier-resolution=node server.ts"
   },
   "author": "",
   "license": "ISC",

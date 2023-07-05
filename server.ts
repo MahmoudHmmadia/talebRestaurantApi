@@ -23,7 +23,7 @@ import adminRoutes from "./routes/admin";
 import authRoutes from "./routes/auth";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
-import { Table } from "./model/Table";
+
 // ==> Main Configuration <== //
 config();
 const __filename = fileURLToPath(import.meta.url);

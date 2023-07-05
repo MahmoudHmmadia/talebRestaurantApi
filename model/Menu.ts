@@ -11,6 +11,7 @@ const menuSchema = new mongoose.Schema({
   peopleComments: Array,
   cat: String,
   type: String,
+  blurHash: String,
 });
 const Menu = mongoose.model("menu", menuSchema);
 export default Menu;
