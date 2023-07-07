@@ -76,7 +76,7 @@ const PORT = process.env.PORT;
 mongoose
   .connect(DATABASE_URL!)
   .then(() => {
-    app.listen(PORT, async () => {
+    app.listen(PORT, () => {
       console.log(`THE SERVER RUNNING ON PORT ${PORT}`);
     });
   })
