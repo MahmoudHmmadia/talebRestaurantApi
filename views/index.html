@@ -13,13 +13,13 @@
         padding: 0;
       }
       body {
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(90deg, #0f161d 0%, #1f2c3a 100%);
+        position: relative;
         min-height: 100vh;
-        font-family: "DM Sans", sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(90deg, #0f1214 0%, #2b2e32 100%);
-        color: #ffa852;
       }
       .container {
         display: flex;
@@ -27,22 +27,29 @@
         gap: 1rem;
         align-items: center;
       }
-      .title {
-        letter-spacing: 1px;
+      .cool_title {
+        background: linear-gradient(90deg, #1dcdfe 0%, #34f5c5 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 2rem;
       }
       .image {
         display: flex;
         justify-content: center;
         align-items: center;
       }
+      .info {
+        color: #fefefe;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="image">
-        <img src="../assets/logo.png" alt="LOGO" width="150" />
+        <img src="../assets/whitePotter.png" alt="LOGO" width="250" />
       </div>
-      <h1 class="title">WELCOME TO TALEB API WEB SERVER</h1>
+      <h1 class="cool_title">WELCOME TO TALEB API WEB SERVER</h1>
+      <p class="info">Created By : Mahmoud Hmmadia</p>
     </div>
   </body>
 </html>
