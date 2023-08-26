@@ -1004,7 +1004,7 @@
 //     name: "Cheese Buffalo Burger",
 //     info: "The Cheese Buffalo Burger is a tantalizing creation that combines the bold and spicy flavors of buffalo sauce with the creamy goodness of cheese. It starts with a juicy and succulent beef patty cooked to perfection, infused with the rich and tangy buffalo sauce",
 //     type: "burger",
-//     price: "2500 SP",
+//     price: "25000 SP",
 
 //     orderTimes: 0,
 //     peopleComments: [],
@@ -1740,3 +1740,92 @@
 //     cat: "sweet",
 //   },
 // ];
+// export const team = [
+//   {
+//     name: "Khlido Taleb",
+//     image: "team1.jpg",
+//     salary: 150000,
+//     jobTitle: "CEO",
+//     role: 101,
+//     age: 33,
+//   },
+//   {
+//     name: "Khlido Taleb",
+//     image: "team2.jpg",
+//     salary: 150000,
+//     jobTitle: "Vegetable Chef",
+//     role: 101,
+//     age: 33,
+//   },
+//   {
+//     name: "Taleb Taleb",
+//     image: "team3.jpg",
+//     salary: 150000,
+//     jobTitle: "Pastry Chef",
+//     role: 101,
+//     age: 33,
+//   },
+//   {
+//     name: "Khlod Taleb",
+//     image: "team4.jpg",
+//     salary: 150000,
+//     jobTitle: "Pastry Chef",
+//     role: 101,
+//     age: 33,
+//   },
+//   {
+//     name: "Taleb Khaled",
+//     image: "team5.jpg",
+//     salary: 300000,
+//     jobTitle: "Sous Chef",
+//     role: 101,
+//     age: 33,
+//   },
+//   {
+//     name: "Khaled Taleb",
+//     image: "team6.jpg",
+//     salary: 60000,
+//     jobTitle: "Executive ChefEO",
+//     role: 101,
+//     age: 33,
+//   },
+// ];
+// export const tables = [
+//   { personNumbers: 1 },
+//   { personNumbers: 1 },
+//   { personNumbers: 2 },
+//   { personNumbers: 2 },
+//   { personNumbers: 3 },
+//   { personNumbers: 3 },
+//   { personNumbers: 3 },
+//   { personNumbers: 4 },
+//   { personNumbers: 4 },
+//   { personNumbers: 4 },
+//   { personNumbers: 4 },
+//   { personNumbers: 5 },
+//   { personNumbers: 5 },
+//   { personNumbers: 5 },
+//   { personNumbers: 5 },
+//   { personNumbers: 6 },
+//   { personNumbers: 6 },
+//   { personNumbers: 6 },
+//   { personNumbers: 7 },
+//   { personNumbers: 7 },
+//   { personNumbers: "custom" },
+//   { personNumbers: "custom" },
+//   { personNumbers: "custom" },
+//   { personNumbers: "custom" },
+// ];
+// await Menu.insertMany(menu);
+// await Table.insertMany(tables);
+// await Employee.insertMany(team);
+// await Employee.create({
+//   name: "admin",
+//   password: await bcrypt.hash("admin", 15),
+//   role: 100,
+// });
+// await Employee.create({
+//   name: "chef",
+//   password: await bcrypt.hash("chef", 15),
+//   role: 200,
+// });

@@ -23,6 +23,8 @@ import adminRoutes from "./routes/admin";
 import authRoutes from "./routes/auth";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
+import Employee from "./model/Employee";
+import bcrypt from "bcrypt";
 
 // ==> Main Configuration <== //
 config();
@@ -62,19 +64,29 @@ app.use(cookieParser());
 app.use("/", rootRoutes);
 app.use("/employees", upload.single("image"), employeesRoutes);
 app.use("/restaurant", upload.single("image"), restaurantRoutes);
-app.use("/menu", menuRoutes);
+app.use("/menu", upload.single("image"), menuRoutes);
 app.use("/order", orderRoutes);
 app.use("/table", tableRoutes);
 app.use("/customer", customerRoutes);
 app.use("/feedBack", feedBackRoutes);
 app.use("/admin", adminRoutes);
 app.use("/auth", authRoutes);
+app.use("/test", async (req, res) => {
+  const { name, pass, role } = req.body;
+  await Employee.create({
+    name,
+    role,
+    password: await bcrypt.hash(pass, 15),
+  });
+  res.send("ok");
+});
 // ==> Connect To Database And Run The Server <== //
 
 const DATABASE_URL = process.env.DATABASE_URL_CONNECTION;
+// const DATABASE_URL = process.env.LOCAL_DATABASE;
 const PORT = process.env.PORT;
 mongoose
-  .connect(DATABASE_URL!)
+  .connect(DATABASE_URL!, { dbName: "taleb_restaurant'" })
   .then(() => {
     app.listen(PORT, () => {
       console.log(`THE SERVER RUNNING ON PORT ${PORT}`);

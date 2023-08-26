@@ -46,3 +46,44 @@ export async function getPopular(req: Request, res: Response) {
     res.sendStatus(500);
   }
 }
+export async function deleteDish(req: Request, res: Response) {
+  try {
+    const { id } = req.params;
+    const dish = await Menu.findById(id);
+    if (dish) {
+      await dish.deleteOne();
+      res.sendStatus(200);
+    } else res.sendStatus(204);
+  } catch (err) {
+    res.sendStatus(500);
+  }
+}
+export async function editDishPrice(req: Request, res: Response) {
+  try {
+    const { id } = req.params;
+    const { price } = req.body;
+    const dish = await Menu.findById(id);
+    if (dish) {
+      dish.price = price + " SP";
+      await dish.save();
+      res.sendStatus(200);
+    } else res.sendStatus(204);
+  } catch (err) {
+    res.sendStatus(500);
+  }
+}
+export async function addDish(req: Request, res: Response) {
+  try {
+    const { name, info, price, imageName, cat } = req.body;
+    const newDish = await Menu.create({
+      name,
+      info,
+      price,
+      imageName,
+      cat,
+    });
+    res.status(200).json(newDish);
+  } catch (err) {
+    res.sendStatus(500);
+  }
+}

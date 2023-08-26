@@ -25,8 +25,7 @@ export async function handleOrder(req: Request, res: Response) {
     }
     await order.save();
     res.status(201).json({
-      message:
-        "We Are Working In Your Order It Will Be In Your Address In 10mins",
+      message: "We Are Working In Your Order It Will Be Done Soon",
     });
   } catch (err) {
     res.sendStatus(500);
@@ -54,6 +53,17 @@ export async function getOrders(req: Request, res: Response) {
   try {
     const orders = await Order.find();
     res.status(200).json(orders);
+  } catch (err) {
+    res.sendStatus(500);
+  }
+}
+export async function handleDone(req: Request, res: Response) {
+  try {
+    const { id } = req.params;
+    const order = await Order.findById(id);
+    order!.done = true;
+    await order?.save();
+    res.status(200).json(order);
   } catch (err) {
     res.sendStatus(500);
   }

@@ -28,6 +28,10 @@ const orderSchema = new mongoose.Schema({
   createdAt: {
     type: Object,
   },
+  done: {
+    type: Boolean,
+    default: false,
+  },
 });
 
 const Order = mongoose.model("order", orderSchema);

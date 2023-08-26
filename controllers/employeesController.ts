@@ -9,7 +9,7 @@ export async function getEmployees(req: Request, res: Response) {
     else
       res
         .status(200)
-        .json(employees.filter((employee) => employee.role !== 100));
+        .json(employees.filter((employee) => employee.role == 101));
   } catch (err) {
     console.log(err);
     res.status(500).json({

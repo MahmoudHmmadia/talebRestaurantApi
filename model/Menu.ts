@@ -7,10 +7,19 @@ const menuSchema = new mongoose.Schema({
   price: String,
   rateArr: { type: Array, default: [] },
   rate: { type: Number, default: 0 },
-  orderTimes: Number,
-  peopleComments: Array,
+  orderTimes: {
+    type: Number,
+    default: 0,
+  },
+  peopleComments: {
+    type: Array,
+    default: [],
+  },
   cat: String,
-  type: String,
+  type: {
+    type: String,
+    default: "",
+  },
   blurHash: String,
 });
 const Menu = mongoose.model("menu", menuSchema);
